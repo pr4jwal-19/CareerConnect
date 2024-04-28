@@ -59,7 +59,9 @@ const AllPosts = () => {
             </SearchWrapper>
             <PostWrapper>
                 {
-                    posts.filter(post => post.profile.toLowerCase().includes(text.toLowerCase())).map(post => (
+                    posts.filter(post => post.profile.toLowerCase().includes(text.toLowerCase())
+                                || post.description.toLowerCase().includes(text.toLowerCase())
+                ).map(post => (
                         <Card>
                             <CardContent>
                                 <Typography variant="h5">{post.profile}</Typography>
