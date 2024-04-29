@@ -53,11 +53,7 @@ const defaultObj = {
 const options = {
     type: ["Online","Remote"],
     experience: ["0-2 Years","3-5 Years","6-9 Years","10+ Years"],
-<<<<<<< HEAD
     technology: ["C/C++","Java","Python","Spring Boot","MySQL","PostgreSQL","React","Angular/Vue","Django","Html/CSS","Javascript","AWS","Git"],
-=======
-    technology: ["C/C++","Java","Python","Spring Boot","MySQL","PostgreSQL","React","Angular/Vue","Django","Html/CSS","Javascript"],
->>>>>>> a3ade235543c9c053545943655804254c2d2bbbc
     salary: ["Rs.0-3,00,000","Rs.3,00,000-5,00,000","Rs.5,00,000-8,00,000","Rs.8,00,000-13,00,000","Above Rs.13,00,000"]
 }
 
